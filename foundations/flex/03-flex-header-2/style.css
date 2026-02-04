@@ -46,3 +46,25 @@ a {
 ul {
   list-style-type: none;
 }
+
+/*---------------------------*/
+
+.header, .logo-links-container, .notification-profile-container, ul {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.logo, li, .notifications, .profile-image {
+  margin: 8px 8px;
+}
+
+ul {
+  padding: 0;
+}
+
+.notification-profile-container {
+  align-items: center;
+}
