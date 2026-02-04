@@ -23,3 +23,35 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/*-----------------------------------------------------*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.header  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 5px 0;
+}
+
+.left-links, .right-links, ul {
+  display: flex;
+}
+
+.left-links, .left-links ul {
+  justify-content: flex-start;
+}
+
+.right-links, .right-links ul {
+  justify-content: flex-end;
+}
+
+a {
+  margin: 0 8px;
+}
